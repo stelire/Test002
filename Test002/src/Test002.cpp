@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
 	RDC_GrpPixel *pPix;
 	pPix = new RDC_GrpPixel[20];
 
-	for(int i=0; i<20; i++){
+	for(int i=0; i<10; i++){
 		pPix[i].setPos(0, 0);
 		pPix[i].setColor(col);
 	}

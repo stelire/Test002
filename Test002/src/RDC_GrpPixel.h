@@ -19,7 +19,7 @@ public:
 	~RDC_GrpPixel(void);
 
 private:
-	RDT_POSITION m_nPos;
+	RDT_POSITION m_tPos;
 	RDT_COLOR m_tColor;
 
 public:
